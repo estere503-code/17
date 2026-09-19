@@ -1,35 +1,57 @@
+import fs from "node:fs/promises";
+import path from "node:path";
 import Link from "next/link";
 
-const metrics = [
-  ["Corrected Net Profit", "€65,000", "Agent 1 Baseline"],
-  ["Cash", "€60,000", "31 August 2026"],
-  ["Receivables", "€168,000", "Net of R-17"],
-  ["Inventory", "€121,000", "Saleable closing stock"],
-] as const;
+type Decision = { id: string; answer: unknown };
+type Reconciliation = { id: string; label: string; status: string; calculation: string };
+type Submission = {
+  decisions: Decision[];
+  statements: { profitAndLoss: Record<string, any>; cashFlow: Record<string, any>; balanceSheet: any };
+  schedules: any;
+  reconciliations: Reconciliation[];
+  uncertainties: string[];
+  boardRecommendation: { recommendation: string };
+  reviewIntegrity: { submissionStatus: string; note: string };
+};
 
-export default function HomePage() {
-  return (
-    <main className="shell">
-      <div className="mx-auto max-w-6xl px-6 py-16">
-        <p className="text-sm font-semibold uppercase tracking-[0.22em] text-cyan-300">DPI-HT-01 · Certified review</p>
-        <h1 className="mt-4 text-4xl font-bold tracking-tight text-white md:text-6xl">DPI HT 01 Financial Reconciliations</h1>
-        <p className="mt-5 max-w-2xl text-lg muted">Agent 1’s corrected baseline for the reporting date of 31 August 2026.</p>
-        <section className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {metrics.map(([label, value, note]) => <div className="panel p-5" key={label}><p className="text-sm muted">{label}</p><p className="mt-3 text-3xl font-bold text-white">{value}</p><p className="mt-2 text-xs muted">{note}</p></div>)}
-        </section>
-        <section className="panel mt-8 p-6">
-          <h2 className="text-xl font-bold text-white">Reconciled baseline</h2>
-          <div className="mt-5 grid gap-4 text-sm text-slate-300 md:grid-cols-3">
-            <p><span className="block muted">Revenue</span><strong className="text-lg text-white">€960,000</strong></p>
-            <p><span className="block muted">Gross profit</span><strong className="text-lg text-white">€475,000</strong></p>
-            <p><span className="block muted">Total assets</span><strong className="text-lg text-white">€540,000</strong></p>
-            <p><span className="block muted">Total liabilities</span><strong className="text-lg text-white">€406,000</strong></p>
-            <p><span className="block muted">Balancing equity</span><strong className="text-lg text-white">€134,000</strong></p>
-            <p><span className="block muted">Net cash movement</span><strong className="text-lg text-white">(€20,000)</strong></p>
-          </div>
-        </section>
-        <div className="mt-8 flex flex-wrap gap-4"><Link href="/review" className="rounded-xl bg-cyan-400 px-5 py-3 font-bold text-slate-950 hover:bg-cyan-300">Open assessor review trail</Link><a href="/submission.json" className="rounded-xl border border-slate-600 px-5 py-3 font-semibold text-white hover:border-cyan-300">View raw submission JSON</a></div>
-      </div>
-    </main>
-  );
+async function getSubmission(): Promise<Submission> {
+  const file = path.join(process.cwd(), "public", "submission.json");
+  return JSON.parse(await fs.readFile(file, "utf8")) as Submission;
 }
+
+const money = (value: number) => `${value < 0 ? "(" : ""}€${Math.abs(value).toLocaleString("en-IE")}${value < 0 ? ")" : ""}`;
+
+export default async function HomePage() {
+  const data = await getSubmission();
+  const pnl = data.statements.profitAndLoss;
+  const cash = data.statements.cashFlow;
+  const bs = data.statements.balanceSheet;
+  const board = data.decisions.filter((decision) => Number(decision.id.slice(1)) >= 91);
+  return <main className="shell"><div className="mx-auto max-w-7xl px-5 py-8 lg:px-10">
+    <header className="panel mb-8 p-7 md:p-10"><div className="flex flex-wrap items-center justify-between gap-4"><div><p className="text-xs font-bold uppercase tracking-[0.24em] text-cyan-300">DPI-HT-01 · Financial assessment dashboard</p><h1 className="mt-3 text-4xl font-bold tracking-tight text-white md:text-6xl">Certified reconstruction</h1><p className="mt-3 max-w-3xl text-lg muted">31 August 2026 · Agent 1 baseline · evidence-led review of profit, liquidity, controls and valuation risk.</p></div><span className="rounded-full border border-amber-400/40 bg-amber-400/10 px-4 py-2 text-xs font-bold uppercase tracking-wide text-amber-200">{data.reviewIntegrity.submissionStatus}</span></div><nav className="mt-8 flex flex-wrap gap-2 text-sm"><a href="#statements" className="nav-pill">Statements</a><a href="#schedules" className="nav-pill">Schedules</a><a href="#checks" className="nav-pill">Reconciliations</a><a href="#board" className="nav-pill">Board actions</a><Link href="/review" className="nav-pill nav-primary">Open assessor trail →</Link><a href="/submission.json" className="nav-pill">Raw JSON</a></nav></header>
+
+    <section className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4"><Metric label="Corrected net profit" value={money(pnl.netProfit)} note="Management claim: €312,000" tone="green" /><Metric label="Closing cash" value={money(cash.closingCash)} note="Bank-confirmed" tone="cyan" /><Metric label="Total assets" value={money(bs.assets.totalAssets)} note="Balanced statement" tone="blue" /><Metric label="Total liabilities" value={money(bs.liabilities.totalLiabilities)} note="Including €90k deposits" tone="amber" /></section>
+
+    <section id="statements" className="mt-8 grid gap-5 lg:grid-cols-3"><Statement title="Profit & loss" rows={[["Revenue",pnl.revenue],["COGS",-pnl.directCosts.totalDirectCosts],["Gross profit",pnl.grossProfit],["Operating expenses",-pnl.operatingExpenses.totalOperatingExpenses],["Operating profit",pnl.operatingProfit],["Interest expense",-pnl.interestExpense],["Corrected net profit",pnl.netProfit]]} /><Statement title="Balance sheet" rows={[["Cash",bs.assets.cash],["Net receivables",bs.assets.netReceivables],["Inventory",bs.assets.inventory],["Net PPE",bs.assets.netPPE],["Total assets",bs.assets.totalAssets],["Total liabilities",-bs.liabilities.totalLiabilities],["Balancing equity",bs.equity.balancingEquity]]} /><Statement title="Cash flow" rows={[["CFO",cash.netCashFromOperations],["CFI",cash.netCashFromInvesting],["CFF",cash.netCashFromFinancing],["Net decrease",cash.netChangeInCash],["Closing cash",cash.closingCash]]} /></section>
+
+    <section id="schedules" className="mt-8"><SectionTitle eyebrow="Traceable working papers" title="Supporting schedules" /><div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3"><Schedule title="Revenue & receivables" items={[["Delivered revenue",money(data.schedules.revenueReceivables.deliveredRevenue)],["Gross receivables",money(data.schedules.revenueReceivables.grossClosingReceivables)],["R-17 write-off",money(-data.schedules.revenueReceivables.r17WriteOff)],["Net receivables",money(data.schedules.revenueReceivables.netClosingReceivables)],["September deposits",money(data.schedules.revenueReceivables.septemberDeposits)+" liability"]]} /><Schedule title="Inventory & COGS" items={[["Opening inventory",money(data.schedules.inventoryCOGS.openingInventory)],["Purchases",money(data.schedules.inventoryCOGS.purchases)],["Materials consumed",money(-data.schedules.inventoryCOGS.materialsConsumed)],["Damaged write-off",money(-data.schedules.inventoryCOGS.damagedWriteOff)],["Saleable closing stock",money(data.schedules.inventoryCOGS.saleableClosingInventory)],["Unresolved gap",money(data.schedules.inventoryCOGS.unresolvedGap)]]} exception /><Schedule title="Payroll" items={[["Expense",money(data.schedules.payroll.totalExpense)],["Cash paid",money(-data.schedules.payroll.cashPaid)],["Opening unpaid",money(data.schedules.payroll.openingUnpaid)],["Closing accrual",money(data.schedules.payroll.closingAccrual)],["Event delivery",money(data.schedules.payroll.eventDelivery.expense)],["Sales / partnerships",money(data.schedules.payroll.salesPartnerships.expense)]]} /><Schedule title="Operating expenses" items={[["Total operating expenses",money(data.schedules.operatingExpenses.total)],["Sales payroll",money(data.schedules.operatingExpenses.salesPayroll)],["Office payroll",money(data.schedules.operatingExpenses.officePayroll)],["Rent",money(data.schedules.operatingExpenses.rent)],["Marketing",money(data.schedules.operatingExpenses.marketing)],["Depreciation",money(data.schedules.operatingExpenses.depreciation)],["Legal provision",money(data.schedules.operatingExpenses.legalProvision)]]} /><Schedule title="PPE & depreciation" items={[["Closing PPE cost",money(data.schedules.ppeDepreciation.closingCost)],["Accumulated depreciation",money(-data.schedules.ppeDepreciation.closingAccumulatedDepreciation)],["Net PPE",money(data.schedules.ppeDepreciation.netPPE)],["Packaging machine",money(data.schedules.ppeDepreciation.packagingMachine)],["Photo booth",money(data.schedules.ppeDepreciation.photoBooth)],["Repair excluded",money(data.schedules.ppeDepreciation.repairNotCapitalized)]]} /><Schedule title="Debt, interest & equity" items={[["Closing loan",money(data.schedules.debtInterest.closingLoan)],["Interest expense",money(data.schedules.debtInterest.interestExpense)],["Interest payable",money(data.schedules.debtInterest.interestPayable)],["Owner distributions",money(data.schedules.equityDistributions.totalDistributions)],["Closing equity",money(data.schedules.equityDistributions.closingBalancingEquity)]]} /></div></section>
+
+    <section id="checks" className="panel mt-8 p-6"><SectionTitle eyebrow="Control evidence" title="Reconciliation checks" /><div className="mt-5 grid gap-3 md:grid-cols-2">{data.reconciliations.map((check) => <div className={`rounded-xl border p-4 ${check.status === "pass" ? "border-emerald-400/30 bg-emerald-400/10" : check.status === "exception" ? "border-amber-400/40 bg-amber-400/10" : "border-slate-600 bg-slate-900/40"}`} key={check.id}><div className="flex items-center justify-between gap-3"><h3 className="font-bold text-white">{check.label}</h3><span className="text-xs font-bold uppercase text-slate-200">{check.status}</span></div><p className="mt-2 text-sm muted">{check.calculation}</p></div>)}</div></section>
+
+    <section className="mt-8 grid gap-5 lg:grid-cols-2"><div className="panel border-amber-400/30 p-6"><SectionTitle eyebrow="Open items" title="Material uncertainties" /><div className="mt-5 space-y-3">{data.uncertainties.map((item) => <p className="rounded-xl bg-amber-400/10 p-4 text-sm text-amber-100" key={item}>{item}</p>)}<p className="rounded-xl bg-slate-900/50 p-4 text-sm muted">{data.reviewIntegrity.note}</p></div></div><div id="board" className="panel p-6"><SectionTitle eyebrow="D091–D100" title="Board recommendation" /><p className="mt-4 text-sm leading-6 text-slate-300">{data.boardRecommendation.recommendation}</p><div className="mt-5 space-y-3">{board.map((item) => <div className="rounded-lg border border-slate-700 p-3 text-sm" key={item.id}><span className="font-bold text-cyan-300">{item.id}</span><span className="ml-3 text-slate-200">{String(item.answer)}</span></div>)}</div></div></section>
+    <section className="panel mt-8 p-6"><SectionTitle eyebrow="Tutor preparation" title="Five likely verification questions" /><div className="mt-5 grid gap-3 md:grid-cols-2">{tutorQuestions.map(([question,answer],index) => <details className="rounded-xl border border-slate-700 bg-slate-900/40 p-4" key={question}><summary className="cursor-pointer font-semibold text-slate-100">{index + 1}. {question}</summary><p className="mt-3 text-sm leading-6 muted">{answer}</p></details>)}</div></section>
+  </div></main>;
+}
+
+function Metric({label,value,note,tone}:{label:string;value:string;note:string;tone:string}) { return <div className={`panel p-5 border-l-4 ${tone === "green" ? "border-l-emerald-400" : tone === "cyan" ? "border-l-cyan-400" : tone === "blue" ? "border-l-sky-400" : "border-l-amber-400"}`}><p className="text-sm muted">{label}</p><p className="mt-3 text-3xl font-bold text-white">{value}</p><p className="mt-2 text-xs muted">{note}</p></div>; }
+function Statement({title,rows}:{title:string;rows:[string,number][]}) { return <div className="panel p-6"><h2 className="text-lg font-bold text-white">{title}</h2><div className="mt-5 space-y-3">{rows.map(([label,value]) => <div className="flex justify-between gap-4 border-b border-slate-800 pb-2 text-sm last:border-0" key={label}><span className={label.includes("profit") || label.includes("Total") || label.includes("equity") || label.includes("Closing") ? "font-bold text-white" : "text-slate-300"}>{label}</span><span className={value < 0 ? "text-rose-300" : "text-slate-100"}>{money(value)}</span></div>)}</div></div>; }
+function Schedule({title,items,exception=false}:{title:string;items:[string,string][];exception?:boolean}) { return <div className={`panel p-5 ${exception ? "border-amber-400/40" : ""}`}><div className="flex items-center justify-between gap-3"><h3 className="font-bold text-white">{title}</h3>{exception && <span className="rounded-full bg-amber-400/15 px-2 py-1 text-[10px] font-bold uppercase text-amber-200">Exception</span>}</div><div className="mt-4 space-y-2 text-sm">{items.map(([label,value]) => <div className="flex justify-between gap-3 border-b border-slate-800 pb-2 last:border-0" key={label}><span className="muted">{label}</span><span className="text-slate-100">{value}</span></div>)}</div></div>; }
+function SectionTitle({eyebrow,title}:{eyebrow:string;title:string}) { return <div><p className="text-xs font-bold uppercase tracking-[0.2em] text-cyan-300">{eyebrow}</p><h2 className="mt-1 text-2xl font-bold text-white">{title}</h2></div>; }
+
+const tutorQuestions: [string,string][] = [
+  ["Why is corrected profit €65,000 instead of €312,000?", "The management figure includes €90,000 of undelivered September deposits and €50,000 of loan proceeds, while omitting depreciation, bad debt, damaged inventory, interest and the legal provision."],
+  ["Why is closing cash €60,000 when profit is €65,000?", "Profit is not cash. The cash roll-forward includes equipment purchases, owner distributions, loan movements and operating payments; bank evidence agrees to €60,000."],
+  ["How is the €9,000 inventory exception calculated?", "Opening inventory €80,000 plus purchases €459,000 less materials consumed €405,000 and damaged stock write-off €22,000 gives €112,000, versus €121,000 counted saleable stock."],
+  ["Why is R-17 written off?", "The customer entered liquidation and no recovery was expected. Later evidence confirms the condition existed at 31 August, so €18,000 is impaired and net receivables are €168,000."],
+  ["How are the loan and owner-card payments treated?", "The €50,000 advance is borrowing, not income. Closing loan principal is €131,000. The €70,000 villa and €40,000 card spending are owner distributions, not business expenses."],
+];
