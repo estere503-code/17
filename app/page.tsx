@@ -26,7 +26,9 @@ export default async function HomePage() {
   const pnl = data.statements.profitAndLoss;
   const cash = data.statements.cashFlow;
   const bs = data.statements.balanceSheet;
-  const board = data.decisions.filter((decision) => Number(decision.id.slice(1)) >= 91);
+  const board = data.decisions.filter(
+    (decision) => Number(decision.id.slice(1)) >= 91,
+  );
 
   return (
     <main className="shell">
