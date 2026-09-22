@@ -475,7 +475,7 @@
         "profit": 0,
         "cash": 0
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -512,7 +512,7 @@
         "profit": 0,
         "cash": 50000
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -549,7 +549,7 @@
         "profit": 0,
         "cash": -60000
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -586,7 +586,7 @@
         "profit": 0,
         "cash": -20000
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -623,7 +623,7 @@
         "profit": -10000,
         "cash": -10000
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -660,7 +660,7 @@
         "profit": 0,
         "cash": -70000
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -697,7 +697,7 @@
         "profit": 0,
         "cash": -110000
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -734,7 +734,7 @@
         "profit": -405000,
         "cash": 0
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -771,7 +771,7 @@
         "profit": -80000,
         "cash": -75000
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -874,7 +874,7 @@
         "profit": -24000,
         "cash": 0
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -911,7 +911,7 @@
         "profit": -18000,
         "cash": 0
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -948,7 +948,7 @@
         "profit": -22000,
         "cash": 0
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -985,7 +985,7 @@
         "profit": -25000,
         "cash": 0
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1066,7 +1066,7 @@
         "profit": 0,
         "cash": 0
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1103,7 +1103,7 @@
         "profit": 0,
         "cash": 0
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1140,7 +1140,7 @@
         "profit": 0,
         "cash": 0
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1177,7 +1177,7 @@
         "profit": 0,
         "cash": 0
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1214,7 +1214,7 @@
         "profit": 0,
         "cash": 0
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1273,7 +1273,7 @@
         "profit": 0,
         "cash": 0
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1310,7 +1310,7 @@
         "profit": 0,
         "cash": 0
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1347,7 +1347,7 @@
         "profit": 0,
         "cash": 0
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1384,7 +1384,7 @@
         "profit": 0,
         "cash": 0
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1421,7 +1421,7 @@
         "profit": 0,
         "cash": 0
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1623,7 +1623,7 @@
         "profit": 0,
         "cash": 0
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1748,7 +1748,7 @@
         "profit": 0,
         "cash": 0
       },
-      "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
+      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
