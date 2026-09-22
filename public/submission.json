@@ -476,7 +476,7 @@
         "cash": 0
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "€90,000 September deposits are contract liabilities/deferred revenue, not August sales.",
@@ -513,7 +513,7 @@
         "cash": 50000
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "€50,000 borrowing is a financial liability/loan principal, not strategic income.",
@@ -550,7 +550,7 @@
         "cash": -60000
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "Capitalize Pack-O-Matic €60,000 as PPE and depreciate from available-for-use date.",
@@ -587,7 +587,7 @@
         "cash": -20000
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "Capitalize Photo Booth €20,000 as PPE; it is equipment available for use, not marketing.",
@@ -624,7 +624,7 @@
         "cash": -10000
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "Expense belt, cleaning and calibration €10,000 as repair; no capacity or useful-life increase.",
@@ -661,7 +661,7 @@
         "cash": -70000
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "€70,000 villa is an owner distribution or due-from-owner; absent repayment terms, present as distribution pending board decision.",
@@ -698,7 +698,7 @@
         "cash": -110000
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "€40,000 owner-card spending is an owner distribution or due-from-owner; no approved bonus expense.",
@@ -735,7 +735,7 @@
         "cash": 0
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "€405,000 materials consumed on valid delivered sales is product COGS.",
@@ -772,7 +772,7 @@
         "cash": -75000
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "€80,000 event delivery staff is direct service/event cost, not administration.",
@@ -875,7 +875,7 @@
         "cash": 0
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "Recognize period depreciation €24,000; zero depreciation overstates PPE and profit.",
@@ -912,7 +912,7 @@
         "cash": 0
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "Recognize €18,000 R-17 bad-debt allowance/write-off; net receivables €168,000 before other items.",
@@ -949,7 +949,7 @@
         "cash": 0
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "Write off €22,000 damaged stock; physical existence does not mean recoverable value.",
@@ -986,7 +986,7 @@
         "cash": 0
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "Recognize €25,000 legal provision, counsel best estimate within the €20,000-€30,000 range.",
@@ -1067,7 +1067,7 @@
         "cash": 0
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "Recognize €180,000 NorthStar revenue; accepted and delivered 12 February.",
@@ -1104,7 +1104,7 @@
         "cash": 0
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "Recognize €200,000 Freedom revenue; €58,000 receivable remains.",
@@ -1141,7 +1141,7 @@
         "cash": 0
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "Recognize €100,000 Phoenix revenue; €30,000 receivable remains.",
@@ -1178,7 +1178,7 @@
         "cash": 0
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "Recognize €120,000 Liberty revenue; €25,000 remains unpaid.",
@@ -1215,7 +1215,7 @@
         "cash": 0
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "Do not recognize €90,000 September events as August revenue; record deposit liability.",
@@ -1274,7 +1274,7 @@
         "cash": 0
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "Closing bad-debt allowance/write-off is €18,000 for R-17.",
@@ -1311,7 +1311,7 @@
         "cash": 0
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "Damaged inventory write-off is €22,000; separate approximate €2,000 disposal cost only when an obligation exists.",
@@ -1348,7 +1348,7 @@
         "cash": 0
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "Legal provision is €25,000, the best estimate.",
@@ -1385,7 +1385,7 @@
         "cash": 0
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "Period depreciation is €24,000; confirm useful lives and timing, reject zero.",
@@ -1422,7 +1422,7 @@
         "cash": 0
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "Closing inventory is €121,000 saleable stock; €22,000 damaged stock is written off; €9,000 roll-forward discrepancy remains.",
@@ -1624,7 +1624,7 @@
         "cash": 0
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "Do not approve uncorrected accounts; reconcile the €9,000 inventory and Event Things conflicts and obtain insurance support first.",
@@ -1749,7 +1749,7 @@
         "cash": 0
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
-      "managementOverride": true,
+      "managementOverride": false,
       "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
       "agent2Status": "completed",
       "agent2Analysis": "Do not use claimed €312,000 profit for earn-out; use corrected board-approved profit, provisionally approximately €63,000 pending open items.",
@@ -2009,9 +2009,9 @@
   ],
   "uncertainties": [
     "€9,000 inventory roll-forward difference.",
-    "Supplier payment allocation, especially Event Things Europe.",
-    "No supported insurance amount.",
-    "Whether disposal quote creates a present obligation; not accrued in base statements."
+    "€45,000 supplier-payment allocation difference for Event Things Europe: €55,000 implied by the invoice and confirmed payable versus €100,000 in the bank export.",
+    "No supported insurance amount; no insurance expense or asset is included in the base statements.",
+    "Opening equity of €179,000 is inferred without a supporting source document; the €2,000 disposal quote is not accrued because the obligation is uncertain."
   ],
   "boardRecommendation": {
     "recommendation": "Do not use the claimed €312,000 profit for valuation or earn-out. Approve corrected reporting subject to resolving or transparently disclosing the €9,000 inventory and supplier-payment exceptions; freeze owner-card access and implement weekly cash forecasting."
