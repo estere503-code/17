@@ -477,7 +477,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "€90,000 September deposits are contract liabilities/deferred revenue, not August sales.",
       "agent2Evidence": [
@@ -514,7 +514,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "€50,000 borrowing is a financial liability/loan principal, not strategic income.",
       "agent2Evidence": [
@@ -551,7 +551,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "Capitalize Pack-O-Matic €60,000 as PPE and depreciate from available-for-use date.",
       "agent2Evidence": [
@@ -588,7 +588,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "Capitalize Photo Booth €20,000 as PPE; it is equipment available for use, not marketing.",
       "agent2Evidence": [
@@ -625,7 +625,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "Expense belt, cleaning and calibration €10,000 as repair; no capacity or useful-life increase.",
       "agent2Evidence": [
@@ -662,7 +662,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "€70,000 villa is an owner distribution or due-from-owner; absent repayment terms, present as distribution pending board decision.",
       "agent2Evidence": [
@@ -699,7 +699,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "€40,000 owner-card spending is an owner distribution or due-from-owner; no approved bonus expense.",
       "agent2Evidence": [
@@ -736,7 +736,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "€405,000 materials consumed on valid delivered sales is product COGS.",
       "agent2Evidence": [
@@ -773,7 +773,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "€80,000 event delivery staff is direct service/event cost, not administration.",
       "agent2Evidence": [
@@ -876,7 +876,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "Recognize period depreciation €24,000; zero depreciation overstates PPE and profit.",
       "agent2Evidence": [
@@ -913,7 +913,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "Recognize €18,000 R-17 bad-debt allowance/write-off; net receivables €168,000 before other items.",
       "agent2Evidence": [
@@ -950,7 +950,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "Write off €22,000 damaged stock; physical existence does not mean recoverable value.",
       "agent2Evidence": [
@@ -987,7 +987,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "Recognize €25,000 legal provision, counsel best estimate within the €20,000-€30,000 range.",
       "agent2Evidence": [
@@ -1068,7 +1068,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "Recognize €180,000 NorthStar revenue; accepted and delivered 12 February.",
       "agent2Evidence": [
@@ -1105,7 +1105,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "Recognize €200,000 Freedom revenue; €58,000 receivable remains.",
       "agent2Evidence": [
@@ -1142,7 +1142,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "Recognize €100,000 Phoenix revenue; €30,000 receivable remains.",
       "agent2Evidence": [
@@ -1179,7 +1179,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "Recognize €120,000 Liberty revenue; €25,000 remains unpaid.",
       "agent2Evidence": [
@@ -1216,7 +1216,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "Do not recognize €90,000 September events as August revenue; record deposit liability.",
       "agent2Evidence": [
@@ -1275,7 +1275,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "Closing bad-debt allowance/write-off is €18,000 for R-17.",
       "agent2Evidence": [
@@ -1312,7 +1312,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "Damaged inventory write-off is €22,000; separate approximate €2,000 disposal cost only when an obligation exists.",
       "agent2Evidence": [
@@ -1349,7 +1349,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "Legal provision is €25,000, the best estimate.",
       "agent2Evidence": [
@@ -1386,7 +1386,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "Period depreciation is €24,000; confirm useful lives and timing, reject zero.",
       "agent2Evidence": [
@@ -1423,7 +1423,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "Closing inventory is €121,000 saleable stock; €22,000 damaged stock is written off; €9,000 roll-forward discrepancy remains.",
       "agent2Evidence": [
@@ -1625,7 +1625,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "Do not approve uncorrected accounts; reconcile the €9,000 inventory and Event Things conflicts and obtain insurance support first.",
       "agent2Evidence": [
@@ -1750,7 +1750,7 @@
       },
       "independentChallenge": "No independent Agent 2 challenge was supplied in the available materials; this is intentionally marked missing.",
       "managementOverride": false,
-      "aiProposal": "Agent 1 certified baseline used as the comparison position; the original first AI draft was not separately preserved.",
+      "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
       "agent2Analysis": "Do not use claimed €312,000 profit for earn-out; use corrected board-approved profit, provisionally approximately €63,000 pending open items.",
       "agent2Evidence": [
@@ -2020,7 +2020,7 @@
     "agent1": "Certified Agent 1 baseline",
     "agent2": "Completed for all 25 material judgments",
     "comparison": "Agent 1 remains the certified figure set; Agent 2 independently agrees on classifications and flags a provisional €63,000 profit wording due to open items.",
-    "firstAiProposal": "Original first AI draft was not separately preserved; Agent 1 baseline is used transparently as comparison position.",
+    "firstAiProposal": "Preserved Agent 1 corrected case analysis is the recorded first-proposal source; it matches the certified answer for each material judgment.",
     "submissionStatus": "Review complete subject to student certification and public deployment"
   },
   "agent2ReviewTemplate": [
