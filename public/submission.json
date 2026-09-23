@@ -2513,11 +2513,11 @@
     {
       "id": "D100",
       "question": "Use claimed management profit for earn-out",
-      "agent2Answer": "Do not use claimed €312,000 profit for earn-out; use corrected board-approved profit, provisionally approximately €63,000 pending open items.",
+      "agent2Answer": "Reject €312,000. Use selected qualified net profit of €74,000; €65,000 is the disclosed €405,000 consumption alternative.",
       "agent2Evidence": [
         "01 USE THIS NUMBERS FINAL v9.xlsx; 03 CRM Export Cleaned FINAL.xlsx; 05 Warehouse Count Marta Notes.pdf pp.1-2; 07 Payroll Bonuses Contractors NEW.xlsx; 08 Assets Repairs Leases Maybe.xlsx; 09 Loans Owner Card and Legal Problems.pdf pp.1-2; 11 Evidence Received After Takeover.pdf p.1"
       ],
-      "agent2AccountingTreatment": "Do not use claimed €312,000 profit for earn-out; use corrected board-approved profit, provisionally approximately €63,000 pending open items.",
+      "agent2AccountingTreatment": "No additional journal entry: retain €74,000 selected profit and disclose the €65,000 alternative.",
       "agent2StatementEffect": {
         "profit": 0,
         "cash": 0,
