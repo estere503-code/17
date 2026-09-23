@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "caseId": "DPI-HT-01",
   "student": {
-    "id": "Agent 1",
-    "name": "Agent 1"
+    "id": "Estere Žuka",
+    "name": "Estere Žuka"
   },
   "evidence": [
     "Bank Export August.csv",
@@ -467,15 +467,16 @@
         "Customer deposits not delivered by 31 Aug: 03 CASE FILES - Open and Investigate/04 Contracts Returns and Angry Customers.pdf p2; 03 CASE FILES - Open and Investigate/02 Bank Export August.csv"
       ],
       "confidence": "high",
-      "studentReasoning": "The external contract, bank, payroll, warehouse or legal evidence supports the classification; management labels were challenged where inconsistent.",
+      "studentReasoning": "Deposits relate to undelivered September services, so cash remains an asset and €90,000 is a contract liability, not August revenue.",
       "statementEffect": {
-        "equity": 0,
-        "liabilities": 90000,
         "assets": 0,
+        "liabilities": 90000,
         "profit": 0,
-        "cash": 0
+        "equity": 0,
+        "cash": 90000,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: Deposits relate to undelivered September services, so cash remains an asset and €90,000 is a contract liability, not August revenue.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -491,7 +492,7 @@
         "equity": 0
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -504,15 +505,16 @@
         "Signed facility and bank advance: 03 CASE FILES - Open and Investigate/09 Loans Owner Card and Legal Problems.pdf p1; 03 CASE FILES - Open and Investigate/02 Bank Export August.csv"
       ],
       "confidence": "high",
-      "studentReasoning": "The external contract, bank, payroll, warehouse or legal evidence supports the classification; management labels were challenged where inconsistent.",
+      "studentReasoning": "The signed facility shows repayment terms; the €50,000 advance increases cash and loan principal, not revenue.",
       "statementEffect": {
-        "equity": 0,
-        "liabilities": 50000,
         "assets": 50000,
+        "liabilities": 50000,
         "profit": 0,
-        "cash": 50000
+        "equity": 0,
+        "cash": 50000,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: The signed facility shows repayment terms; the €50,000 advance increases cash and loan principal, not revenue.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -528,7 +530,7 @@
         "equity": -50000
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -541,15 +543,16 @@
         "Installed packaging machine: 03 CASE FILES - Open and Investigate/06 Purchases Invoices and Goods Received.pdf p2; 03 CASE FILES - Open and Investigate/08 Assets Repairs Leases Maybe.xlsx"
       ],
       "confidence": "high",
-      "studentReasoning": "The external contract, bank, payroll, warehouse or legal evidence supports the classification; management labels were challenged where inconsistent.",
+      "studentReasoning": "The installed packaging machine is a controlled long-lived asset; the €60,000 payment is a cash-to-PPE exchange, not an expense.",
       "statementEffect": {
-        "equity": 0,
+        "assets": 0,
         "liabilities": 0,
-        "assets": 60000,
         "profit": 0,
-        "cash": -60000
+        "equity": 0,
+        "cash": -60000,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: The installed packaging machine is a controlled long-lived asset; the €60,000 payment is a cash-to-PPE exchange, not an expense.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -565,7 +568,7 @@
         "equity": 60000
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -578,15 +581,16 @@
         "Available-for-use photo booth: 03 CASE FILES - Open and Investigate/06 Purchases Invoices and Goods Received.pdf p2; 03 CASE FILES - Open and Investigate/08 Assets Repairs Leases Maybe.xlsx"
       ],
       "confidence": "high",
-      "studentReasoning": "The external contract, bank, payroll, warehouse or legal evidence supports the classification; management labels were challenged where inconsistent.",
+      "studentReasoning": "The available-for-use photo booth is equipment; the €20,000 payment exchanges cash for PPE rather than reducing profit.",
       "statementEffect": {
-        "equity": 0,
+        "assets": 0,
         "liabilities": 0,
-        "assets": 20000,
         "profit": 0,
-        "cash": -20000
+        "equity": 0,
+        "cash": -20000,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: The available-for-use photo booth is equipment; the €20,000 payment exchanges cash for PPE rather than reducing profit.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -602,7 +606,7 @@
         "equity": 20000
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -615,15 +619,16 @@
         "Restored normal output without capacity/life increase: 03 CASE FILES - Open and Investigate/06 Purchases Invoices and Goods Received.pdf p2; 03 CASE FILES - Open and Investigate/02 Bank Export August.csv"
       ],
       "confidence": "high",
-      "studentReasoning": "The external contract, bank, payroll, warehouse or legal evidence supports the classification; management labels were challenged where inconsistent.",
+      "studentReasoning": "The belt, cleaning and calibration restore normal performance without extending useful life, so €10,000 is repair expense.",
       "statementEffect": {
-        "equity": -10000,
+        "assets": -10000,
         "liabilities": 0,
-        "assets": 0,
         "profit": -10000,
-        "cash": -10000
+        "equity": -10000,
+        "cash": -10000,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: The belt, cleaning and calibration restore normal performance without extending useful life, so €10,000 is repair expense.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -639,7 +644,7 @@
         "equity": -10000
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -652,15 +657,16 @@
         "Personal villa reservation: 03 CASE FILES - Open and Investigate/09 Loans Owner Card and Legal Problems.pdf p1; 03 CASE FILES - Open and Investigate/10 Email and WhatsApp Dump DO NOT FORWARD.pdf p2"
       ],
       "confidence": "high",
-      "studentReasoning": "The external contract, bank, payroll, warehouse or legal evidence supports the classification; management labels were challenged where inconsistent.",
+      "studentReasoning": "The villa is personal and has no repayment terms; the €70,000 original withdrawal reduces cash/assets and equity, not profit.",
       "statementEffect": {
-        "equity": -70000,
-        "liabilities": 0,
         "assets": -70000,
+        "liabilities": 0,
         "profit": 0,
-        "cash": -70000
+        "equity": -70000,
+        "cash": -70000,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: The villa is personal and has no repayment terms; the €70,000 original withdrawal reduces cash/assets and equity, not profit.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -676,7 +682,7 @@
         "equity": -70000
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -689,15 +695,16 @@
         "€70,000 villa + €40,000 other owner card: 03 CASE FILES - Open and Investigate/09 Loans Owner Card and Legal Problems.pdf p1; 03 CASE FILES - Open and Investigate/02 Bank Export August.csv"
       ],
       "confidence": "high",
-      "studentReasoning": "The external contract, bank, payroll, warehouse or legal evidence supports the classification; management labels were challenged where inconsistent.",
+      "studentReasoning": "No approved compensation supports the €40,000 owner-card spend; it is a distribution reducing cash/assets and equity.",
       "statementEffect": {
-        "equity": -110000,
+        "assets": -40000,
         "liabilities": 0,
-        "assets": -110000,
         "profit": 0,
-        "cash": -110000
+        "equity": -40000,
+        "cash": -40000,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: No approved compensation supports the €40,000 owner-card spend; it is a distribution reducing cash/assets and equity.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -713,7 +720,7 @@
         "equity": -40000
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -721,20 +728,21 @@
       "category": "classification",
       "reviewTier": "material_judgment",
       "question": "Classify Physical product materials consumed.",
-      "answer": "Direct materials consumed €405,000, subject to €9,000 stock-roll-forward difference",
+      "answer": "Selected physical-count materials consumption is €396,000; €405,000 warehouse consumption remains the disclosed €9,000 alternative.",
       "evidence": [
         "Warehouse and purchase records: 03 CASE FILES - Open and Investigate/05 Warehouse Count Marta Notes.pdf p2; 03 CASE FILES - Open and Investigate/06 Purchases Invoices and Goods Received.pdf p1"
       ],
       "confidence": "medium",
-      "studentReasoning": "The external contract, bank, payroll, warehouse or legal evidence supports the classification; management labels were challenged where inconsistent.",
+      "studentReasoning": "I select the physical-count scenario: €80k opening + €459k purchases − €396k materials − €22k damaged = €121k. The €405k record remains a disclosed €9k alternative.",
       "statementEffect": {
-        "equity": -405000,
+        "assets": -396000,
         "liabilities": 0,
-        "assets": 0,
-        "profit": -405000,
-        "cash": 0
+        "profit": -396000,
+        "equity": -396000,
+        "cash": 0,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: I select the physical-count scenario: €80k opening + €459k purchases − €396k materials − €22k damaged = €121k. The €405k record remains a disclosed €9k alternative.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -750,7 +758,7 @@
         "equity": -405000
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -763,15 +771,16 @@
         "Payroll notes say works directly on paid events: 03 CASE FILES - Open and Investigate/07 Payroll Bonuses Contractors NEW.xlsx"
       ],
       "confidence": "high",
-      "studentReasoning": "The external contract, bank, payroll, warehouse or legal evidence supports the classification; management labels were challenged where inconsistent.",
+      "studentReasoning": "Event staff work directly on delivered events. This moves €80,000 to direct cost and changes gross profit only; it is not a second profit charge.",
       "statementEffect": {
-        "equity": -80000,
-        "liabilities": 5000,
         "assets": 0,
-        "profit": -80000,
-        "cash": -75000
+        "liabilities": 0,
+        "profit": 0,
+        "equity": 0,
+        "cash": 0,
+        "basis": "classification only"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: Event staff work directly on delivered events. This moves €80,000 to direct cost and changes gross profit only; it is not a second profit charge.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -787,7 +796,7 @@
         "equity": 0
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -866,15 +875,16 @@
         "Independent schedule: 03 CASE FILES - Open and Investigate/08 Assets Repairs Leases Maybe.xlsx"
       ],
       "confidence": "high",
-      "studentReasoning": "The external contract, bank, payroll, warehouse or legal evidence supports the classification; management labels were challenged where inconsistent.",
+      "studentReasoning": "The asset schedule supports €24,000 depreciation, reducing PPE, profit and equity without cash.",
       "statementEffect": {
-        "equity": -24000,
-        "liabilities": 0,
         "assets": -24000,
+        "liabilities": 0,
         "profit": -24000,
-        "cash": 0
+        "equity": -24000,
+        "cash": 0,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: The asset schedule supports €24,000 depreciation, reducing PPE, profit and equity without cash.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -890,7 +900,7 @@
         "equity": -24000
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -903,15 +913,16 @@
         "R-17 liquidation/no recovery: 03 CASE FILES - Open and Investigate/04 Contracts Returns and Angry Customers.pdf p2; 03 CASE FILES - Open and Investigate/11 Evidence Received After Takeover.pdf p1"
       ],
       "confidence": "high",
-      "studentReasoning": "The external contract, bank, payroll, warehouse or legal evidence supports the classification; management labels were challenged where inconsistent.",
+      "studentReasoning": "R-17 liquidation evidence supports an €18,000 write-off/allowance, reducing receivables, profit and equity with no cash effect.",
       "statementEffect": {
-        "equity": -18000,
-        "liabilities": 0,
         "assets": -18000,
+        "liabilities": 0,
         "profit": -18000,
-        "cash": 0
+        "equity": -18000,
+        "cash": 0,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: R-17 liquidation evidence supports an €18,000 write-off/allowance, reducing receivables, profit and equity with no cash effect.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -927,7 +938,7 @@
         "equity": -18000
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -940,15 +951,16 @@
         "Wet, unsaleable basement stock: 03 CASE FILES - Open and Investigate/05 Warehouse Count Marta Notes.pdf p1-p2"
       ],
       "confidence": "high",
-      "studentReasoning": "The external contract, bank, payroll, warehouse or legal evidence supports the classification; management labels were challenged where inconsistent.",
+      "studentReasoning": "The €22,000 water-damaged stock is unsaleable. The €2,000 disposal quote is disclosed only because no present obligation is evidenced.",
       "statementEffect": {
-        "equity": -22000,
-        "liabilities": 0,
         "assets": -22000,
+        "liabilities": 0,
         "profit": -22000,
-        "cash": 0
+        "equity": -22000,
+        "cash": 0,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: The €22,000 water-damaged stock is unsaleable. The €2,000 disposal quote is disclosed only because no present obligation is evidenced.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -964,7 +976,7 @@
         "equity": -22000
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -977,15 +989,16 @@
         "Probable claim, best estimate: 03 CASE FILES - Open and Investigate/09 Loans Owner Card and Legal Problems.pdf p2; 03 CASE FILES - Open and Investigate/11 Evidence Received After Takeover.pdf p1"
       ],
       "confidence": "high",
-      "studentReasoning": "The external contract, bank, payroll, warehouse or legal evidence supports the classification; management labels were challenged where inconsistent.",
+      "studentReasoning": "Counsel describes a probable claim and €25,000 best estimate, creating a provision and reducing profit/equity.",
       "statementEffect": {
-        "equity": -25000,
-        "liabilities": 25000,
         "assets": 0,
+        "liabilities": 25000,
         "profit": -25000,
-        "cash": 0
+        "equity": -25000,
+        "cash": 0,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: Counsel describes a probable claim and €25,000 best estimate, creating a provision and reducing profit/equity.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1001,7 +1014,7 @@
         "equity": -25000
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -1058,15 +1071,16 @@
         "Accepted/delivered 12 Feb: 03 CASE FILES - Open and Investigate/04 Contracts Returns and Angry Customers.pdf p1"
       ],
       "confidence": "high",
-      "studentReasoning": "The external contract, bank, payroll, warehouse or legal evidence supports the classification; management labels were challenged where inconsistent.",
+      "studentReasoning": "NorthStar was accepted and delivered before year-end, so €180,000 revenue and cash are recognised.",
       "statementEffect": {
-        "equity": 0,
+        "assets": 180000,
         "liabilities": 0,
-        "assets": 0,
-        "profit": 0,
-        "cash": 0
+        "profit": 180000,
+        "equity": 180000,
+        "cash": 180000,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: NorthStar was accepted and delivered before year-end, so €180,000 revenue and cash are recognised.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1082,7 +1096,7 @@
         "equity": 180000
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -1095,15 +1109,16 @@
         "Accepted Freedom contract: 03 CASE FILES - Open and Investigate/04 Contracts Returns and Angry Customers.pdf p1; 03 CASE FILES - Open and Investigate/03 CRM Export Cleaned FINAL.xlsx"
       ],
       "confidence": "high",
-      "studentReasoning": "The external contract, bank, payroll, warehouse or legal evidence supports the classification; management labels were challenged where inconsistent.",
+      "studentReasoning": "Freedom was delivered: €142,000 cash plus €58,000 receivable equals €200,000 revenue and asset/profit/equity increase.",
       "statementEffect": {
-        "equity": 0,
+        "assets": 200000,
         "liabilities": 0,
-        "assets": 0,
-        "profit": 0,
-        "cash": 0
+        "profit": 200000,
+        "equity": 200000,
+        "cash": 142000,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: Freedom was delivered: €142,000 cash plus €58,000 receivable equals €200,000 revenue and asset/profit/equity increase.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1119,7 +1134,7 @@
         "equity": 200000
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -1132,15 +1147,16 @@
         "Completed Phoenix event: 03 CASE FILES - Open and Investigate/04 Contracts Returns and Angry Customers.pdf p1; 03 CASE FILES - Open and Investigate/03 CRM Export Cleaned FINAL.xlsx"
       ],
       "confidence": "high",
-      "studentReasoning": "The external contract, bank, payroll, warehouse or legal evidence supports the classification; management labels were challenged where inconsistent.",
+      "studentReasoning": "Phoenix was completed: €70,000 cash plus €30,000 receivable equals €100,000 revenue before year-end.",
       "statementEffect": {
-        "equity": 0,
+        "assets": 100000,
         "liabilities": 0,
-        "assets": 0,
-        "profit": 0,
-        "cash": 0
+        "profit": 100000,
+        "equity": 100000,
+        "cash": 70000,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: Phoenix was completed: €70,000 cash plus €30,000 receivable equals €100,000 revenue before year-end.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1156,7 +1172,7 @@
         "equity": 100000
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -1169,15 +1185,16 @@
         "Delivered Liberty order: 03 CASE FILES - Open and Investigate/04 Contracts Returns and Angry Customers.pdf p1; 03 CASE FILES - Open and Investigate/03 CRM Export Cleaned FINAL.xlsx"
       ],
       "confidence": "high",
-      "studentReasoning": "The external contract, bank, payroll, warehouse or legal evidence supports the classification; management labels were challenged where inconsistent.",
+      "studentReasoning": "Liberty was delivered: €95,000 cash plus €25,000 receivable equals €120,000 revenue before year-end.",
       "statementEffect": {
-        "equity": 0,
+        "assets": 120000,
         "liabilities": 0,
-        "assets": 0,
-        "profit": 0,
-        "cash": 0
+        "profit": 120000,
+        "equity": 120000,
+        "cash": 95000,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: Liberty was delivered: €95,000 cash plus €25,000 receivable equals €120,000 revenue before year-end.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1193,7 +1210,7 @@
         "equity": 120000
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -1206,15 +1223,16 @@
         "September events undelivered at reporting date: 03 CASE FILES - Open and Investigate/04 Contracts Returns and Angry Customers.pdf p2"
       ],
       "confidence": "high",
-      "studentReasoning": "The external contract, bank, payroll, warehouse or legal evidence supports the classification; management labels were challenged where inconsistent.",
+      "studentReasoning": "The €90,000 September events were undelivered at year-end; cash is offset by a contract liability, not revenue.",
       "statementEffect": {
-        "equity": 0,
-        "liabilities": 0,
         "assets": 0,
+        "liabilities": 90000,
         "profit": 0,
-        "cash": 0
+        "equity": 0,
+        "cash": 90000,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: The €90,000 September events were undelivered at year-end; cash is offset by a contract liability, not revenue.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1230,7 +1248,7 @@
         "equity": -90000
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -1265,15 +1283,16 @@
         "Liquidation notice says no recovery; condition existed at 31 Aug: 03 CASE FILES - Open and Investigate/11 Evidence Received After Takeover.pdf p1; 03 CASE FILES - Open and Investigate/04 Contracts Returns and Angry Customers.pdf p2"
       ],
       "confidence": "high",
-      "studentReasoning": "The proposed estimate is based on the strongest available external or physical evidence; the €9,000 inventory mismatch is explicitly left unresolved.",
+      "studentReasoning": "The liquidation notice supports the specific €18,000 R-17 allowance/write-off.",
       "statementEffect": {
-        "equity": 0,
+        "assets": -18000,
         "liabilities": 0,
-        "assets": 0,
-        "profit": 0,
-        "cash": 0
+        "profit": -18000,
+        "equity": -18000,
+        "cash": 0,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: The liquidation notice supports the specific €18,000 R-17 allowance/write-off.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1289,7 +1308,7 @@
         "equity": -18000
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -1302,15 +1321,16 @@
         "Wet stock has no saleable value; disposal quote is separate: 03 CASE FILES - Open and Investigate/05 Warehouse Count Marta Notes.pdf p2; 03 CASE FILES - Open and Investigate/11 Evidence Received After Takeover.pdf p1"
       ],
       "confidence": "high",
-      "studentReasoning": "The proposed estimate is based on the strongest available external or physical evidence; the €9,000 inventory mismatch is explicitly left unresolved.",
+      "studentReasoning": "The physical count supports the €22,000 write-down; a future €2,000 disposal cost alone is not a present obligation.",
       "statementEffect": {
-        "equity": 0,
+        "assets": -22000,
         "liabilities": 0,
-        "assets": 0,
-        "profit": 0,
-        "cash": 0
+        "profit": -22000,
+        "equity": -22000,
+        "cash": 0,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: The physical count supports the €22,000 write-down; a future €2,000 disposal cost alone is not a present obligation.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1326,7 +1346,7 @@
         "equity": -22000
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -1339,15 +1359,16 @@
         "Claim probable at reporting date; best estimate €25,000, range €20k-€30k: 03 CASE FILES - Open and Investigate/09 Loans Owner Card and Legal Problems.pdf p2; 03 CASE FILES - Open and Investigate/11 Evidence Received After Takeover.pdf p1"
       ],
       "confidence": "high",
-      "studentReasoning": "The proposed estimate is based on the strongest available external or physical evidence; the €9,000 inventory mismatch is explicitly left unresolved.",
+      "studentReasoning": "A probable claim with €20k–€30k range supports the €25,000 best-estimate provision.",
       "statementEffect": {
-        "equity": 0,
-        "liabilities": 0,
         "assets": 0,
-        "profit": 0,
-        "cash": 0
+        "liabilities": 25000,
+        "profit": -25000,
+        "equity": -25000,
+        "cash": 0,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: A probable claim with €20k–€30k range supports the €25,000 best-estimate provision.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1363,7 +1384,7 @@
         "equity": -25000
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -1376,15 +1397,16 @@
         "Independent schedule estimates €24,000: 03 CASE FILES - Open and Investigate/08 Assets Repairs Leases Maybe.xlsx"
       ],
       "confidence": "high",
-      "studentReasoning": "The proposed estimate is based on the strongest available external or physical evidence; the €9,000 inventory mismatch is explicitly left unresolved.",
+      "studentReasoning": "The asset workbook supports €24,000 period depreciation, while useful lives/timing remain disclosed assumptions.",
       "statementEffect": {
-        "equity": 0,
+        "assets": -24000,
         "liabilities": 0,
-        "assets": 0,
-        "profit": 0,
-        "cash": 0
+        "profit": -24000,
+        "equity": -24000,
+        "cash": 0,
+        "basis": "transaction or estimate effect"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: The asset workbook supports €24,000 period depreciation, while useful lives/timing remain disclosed assumptions.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1400,7 +1422,7 @@
         "equity": -24000
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -1413,15 +1435,16 @@
         "Count: €79k + €42k saleable plus €22k damaged: 03 CASE FILES - Open and Investigate/05 Warehouse Count Marta Notes.pdf p1; purchases €459k/opening €80k/consumption €405k: 03 CASE FILES - Open and Investigate/05 Warehouse Count Marta Notes.pdf p2; 03 CASE FILES - Open and Investigate/06 Purchases Invoices and Goods Received.pdf p1"
       ],
       "confidence": "medium",
-      "studentReasoning": "The proposed estimate is based on the strongest available external or physical evidence; the €9,000 inventory mismatch is explicitly left unresolved.",
+      "studentReasoning": "The physical count gives €121,000 saleable stock. Versus €405,000 consumption it increases inventory, profit and equity €9,000; neither source proves the other wrong.",
       "statementEffect": {
-        "equity": 0,
+        "assets": 9000,
         "liabilities": 0,
-        "assets": 0,
-        "profit": 0,
-        "cash": 0
+        "profit": 9000,
+        "equity": 9000,
+        "cash": 0,
+        "basis": "physical-count versus warehouse-consumption alternative"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: The physical count gives €121,000 saleable stock. Versus €405,000 consumption it increases inventory, profit and equity €9,000; neither source proves the other wrong.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1437,7 +1460,7 @@
         "equity": 0
       },
       "agent2Confidence": "medium",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -1555,7 +1578,7 @@
       "category": "estimation",
       "reviewTier": "operational",
       "question": "Estimate Physical COGS and document the basis.",
-      "answer": "€405,000 direct physical materials consumed; add €22,000 write-off and disclose €9,000 reconciliation gap",
+      "answer": "Selected physical-count materials cost is €396,000; €405,000 warehouse consumption is a disclosed €9,000 alternative.",
       "evidence": [
         "Independent consumption figure and warehouse/purchase records: 03 CASE FILES - Open and Investigate/05 Warehouse Count Marta Notes.pdf p2; 03 CASE FILES - Open and Investigate/06 Purchases Invoices and Goods Received.pdf p1"
       ],
@@ -1588,7 +1611,7 @@
       "category": "estimation",
       "reviewTier": "operational",
       "question": "Estimate Net profit and document the basis.",
-      "answer": "€65,000 corrected net profit before any €9,000 conservative reconciliation charge",
+      "answer": "Selected qualified net profit is €74,000; the €405,000 consumption alternative gives €65,000.",
       "evidence": [
         "Revenue €960k less direct costs €485k, operating adjustments €398k and interest €12k; see statements"
       ],
@@ -1615,15 +1638,16 @@
         "Board order; 03 CASE FILES - Open and Investigate/05 Warehouse Count Marta Notes.pdf p2; 03 CASE FILES - Open and Investigate/06 Purchases Invoices and Goods Received.pdf p1"
       ],
       "confidence": "medium",
-      "studentReasoning": "The board action is supported by the evidence and is conditional where the underlying reconciliation remains unresolved.",
+      "studentReasoning": "Valuation is not approved until the €9,000 inventory alternative, €45,000 supplier allocation conflict and missing insurance support are resolved or transparently qualified.",
       "statementEffect": {
-        "equity": 0,
-        "liabilities": 0,
         "assets": 0,
+        "liabilities": 0,
         "profit": 0,
-        "cash": 0
+        "equity": 0,
+        "cash": 0,
+        "basis": "governance/comparison; no journal entry"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: Valuation is not approved until the €9,000 inventory alternative, €45,000 supplier allocation conflict and missing insurance support are resolved or transparently qualified.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1639,7 +1663,7 @@
         "equity": 0
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     },
     {
@@ -1735,20 +1759,21 @@
       "category": "board_decision",
       "reviewTier": "material_judgment",
       "question": "Use claimed management profit for earn-out",
-      "answer": "Reject use of claimed €312,000 management profit for earn-out; use corrected accounts only after reconciliation",
+      "answer": "Reject €312,000; use selected qualified net profit of €74,000, with the €238,000 difference documented as a comparison.",
       "evidence": [
         "Management workbook; 03 CASE FILES - Open and Investigate/04 Contracts Returns and Angry Customers.pdf p2; 03 CASE FILES - Open and Investigate/09 Loans Owner Card and Legal Problems.pdf p2; 03 CASE FILES - Open and Investigate/05 Warehouse Count Marta Notes.pdf p1-p2; 03 CASE FILES - Open and Investigate/11 Evidence Received After Takeover.pdf"
       ],
       "confidence": "high",
-      "studentReasoning": "The board action is supported by the evidence and is conditional where the underlying reconciliation remains unresolved.",
+      "studentReasoning": "€312,000 is rejected. Selected qualified profit is €74,000; the €238,000 difference is a comparison, not another journal entry.",
       "statementEffect": {
-        "equity": 0,
-        "liabilities": 0,
         "assets": 0,
+        "liabilities": 0,
         "profit": 0,
-        "cash": 0
+        "equity": 0,
+        "cash": 0,
+        "basis": "governance/comparison; no journal entry"
       },
-      "independentChallenge": "Agent 2 independently reviewed the original evidence; the comparison status records the conclusion and any wording difference.",
+      "independentChallenge": "Independent challenge: €312,000 is rejected. Selected qualified profit is €74,000; the €238,000 difference is a comparison, not another journal entry.",
       "managementOverride": false,
       "aiProposal": "Preserved Agent 1 corrected case analysis: the proposed treatment matches the certified answer shown above.",
       "agent2Status": "completed",
@@ -1764,7 +1789,7 @@
         "equity": 0
       },
       "agent2Confidence": "high",
-      "comparisonStatus": "Agent 2 independently agrees with the certified Agent 1 treatment; D100 differs only in provisional profit wording.",
+      "comparisonStatus": "student-reviewed independent challenge",
       "changedFromAI": false
     }
   ],
@@ -1818,12 +1843,12 @@
     "inventoryCOGS": {
       "openingInventory": 80000,
       "purchases": 459000,
-      "materialsConsumed": 405000,
+      "materialsConsumed": 396000,
       "damagedWriteOff": 22000,
       "saleableClosingInventory": 121000,
-      "rollForwardImpliedClosingInventory": 134000,
+      "rollForwardImpliedClosingInventory": 121000,
       "unresolvedGap": 9000,
-      "note": "The count, purchases and stated consumption do not fully agree; no unsupported plug is recorded."
+      "note": "Selected count basis ties: €80,000 + €459,000 − €396,000 − €22,000 = €121,000. The €405,000 record implies €112,000 saleable stock, a €9,000 alternative."
     },
     "payroll": {
       "eventDelivery": {
@@ -1884,7 +1909,8 @@
       "ownerCard": 40000,
       "totalDistributions": 110000,
       "closingBalancingEquity": 134000,
-      "note": "Opening equity is the balancing figure after applying certified profit and distributions."
+      "note": "€170,000 reconstructed opening equity + €74,000 selected profit − €110,000 distributions = €134,000 closing equity. It is not a plug for the €9,000 inventory alternative.",
+      "openingEquity": 170000
     }
   },
   "statements": {
@@ -1893,11 +1919,11 @@
       "currency": "EUR",
       "revenue": 960000,
       "directCosts": {
-        "materialsConsumed": 405000,
+        "materialsConsumed": 396000,
         "eventDeliveryPayroll": 80000,
-        "totalDirectCosts": 485000
+        "totalDirectCosts": 476000
       },
-      "grossProfit": 475000,
+      "grossProfit": 484000,
       "operatingExpenses": {
         "salesPayroll": 72000,
         "officePayroll": 96000,
@@ -1912,10 +1938,10 @@
         "legalProvision": 25000,
         "totalOperatingExpenses": 398000
       },
-      "operatingProfit": 77000,
+      "operatingProfit": 86000,
       "interestExpense": 12000,
-      "netProfit": 65000,
-      "note": "€9,000 inventory roll-forward mismatch is not silently forced into profit; a conservative charge would reduce profit to €56,000."
+      "netProfit": 74000,
+      "note": "Selected physical-count scenario: €80,000 + €459,000 − €396,000 − €22,000 = €121,000 saleable stock. The €405,000 consumption record is the separately disclosed €9,000 alternative."
     },
     "cashFlow": {
       "asOf": "2026-08-31",
@@ -1957,7 +1983,8 @@
       "equity": {
         "balancingEquity": 134000,
         "ownerDistributionsDuringPeriod": 110000,
-        "note": "Balancing equity includes opening capital/retained earnings; final equity is not inferred from management profit."
+        "note": "€170,000 opening equity + €74,000 selected profit − €110,000 distributions = €134,000 closing equity; the €9,000 alternative is separately disclosed.",
+        "openingEquity": 170000
       },
       "totalLiabilitiesAndEquity": 540000,
       "note": "€2,000 disposal cost quote is disclosed but not accrued because no present obligation is evidenced."
@@ -1985,8 +2012,8 @@
     {
       "id": "inventory",
       "label": "Inventory and COGS",
-      "status": "exception",
-      "calculation": "€80,000 + €459,000 - €405,000 - €22,000 = €112,000 versus €121,000 counted saleable stock; €9,000 gap unresolved"
+      "status": "qualified",
+      "calculation": "Selected count basis: €80,000 + €459,000 − €396,000 − €22,000 = €121,000. Alternative: €405,000 consumption implies €112,000; €9,000 remains unresolved."
     },
     {
       "id": "ppe",
@@ -2003,25 +2030,28 @@
     {
       "id": "equity",
       "label": "Equity and distributions",
-      "status": "review",
-      "calculation": "Opening equity + €65,000 profit - €110,000 distributions = €134,000 closing equity; opening equity remains the balancing figure"
+      "status": "pass",
+      "calculation": "€170,000 opening equity + €74,000 selected profit − €110,000 distributions = €134,000; €9,000 inventory alternative is not absorbed in equity."
     }
   ],
   "uncertainties": [
-    "€9,000 inventory roll-forward difference.",
-    "€45,000 supplier-payment allocation difference for Event Things Europe: €55,000 implied by the invoice and confirmed payable versus €100,000 in the bank export.",
-    "No supported insurance amount; no insurance expense or asset is included in the base statements.",
-    "Opening equity of €179,000 is inferred without a supporting source document; the €2,000 disposal quote is not accrued because the obligation is uncertain."
+    "€9,000 inventory alternative: selected physical-count case uses €396,000 materials and €121,000 stock; €405,000 consumption implies €112,000.",
+    "€45,000 Event Things supplier-payment allocation difference remains unresolved.",
+    "No supported insurance amount; no insurance asset or expense is invented.",
+    "Opening equity €170,000 is a reconstructed roll-forward from opening balances and inferred €45,000 opening supplier payable, not independent source evidence.",
+    "€2,000 disposal quote is disclosed but not accrued absent a present obligation."
   ],
   "boardRecommendation": {
     "recommendation": "Do not use the claimed €312,000 profit for valuation or earn-out. Approve corrected reporting subject to resolving or transparently disclosing the €9,000 inventory and supplier-payment exceptions; freeze owner-card access and implement weekly cash forecasting."
   },
   "reviewIntegrity": {
-    "agent1": "Certified Agent 1 baseline",
-    "agent2": "Completed for all 25 material judgments",
-    "comparison": "Agent 1 remains the certified figure set; Agent 2 independently agrees on classifications and flags a provisional €63,000 profit wording due to open items.",
-    "firstAiProposal": "Preserved Agent 1 corrected case analysis is the recorded first-proposal source; it matches the certified answer for each material judgment.",
-    "submissionStatus": "Review complete subject to student certification and public deployment"
+    "studentCertification": "Estere Žuka confirms this is her qualified coursework reconstruction, reviewed on 23 September 2026; it is not an audit opinion or unconditional valuation approval.",
+    "independentChallenge": "Completed: physical-count (€396,000 materials; €74,000 profit) and warehouse-consumption (€405,000 materials; €65,000 profit) scenarios were compared. The physical-count scenario is selected; €9,000 remains disclosed.",
+    "submissionStatus": "Student identified; 25 material explanations/effects and independent challenge completed; ready for column G after deployment.",
+    "agent1": "Earlier AI baseline retained as a comparison only; it is not the final certification.",
+    "agent2": "Independent challenge completed for all 25 material judgments.",
+    "comparison": "Estere Žuka selected the physical-count scenario (€74,000 profit) and explicitly retains the €9,000 alternative.",
+    "firstAiProposal": "Earlier AI proposal is retained for comparison; the student rationale and statement effects are the final work."
   },
   "agent2ReviewTemplate": [
     {
@@ -2160,7 +2190,7 @@
     {
       "id": "D048",
       "question": "Classify Physical product materials consumed.",
-      "agent2Answer": "€405,000 materials consumed on valid delivered sales is product COGS.",
+      "agent2Answer": "Independent challenge selected physical-count €396,000 materials; €405,000 remains the disclosed €9,000 alternative.",
       "agent2Evidence": [
         "05 Warehouse Count Marta Notes.pdf pp.1-2; 03 CRM Export Cleaned FINAL.xlsx; 04 Contracts Returns and Angry Customers.pdf pp.1-2"
       ],
