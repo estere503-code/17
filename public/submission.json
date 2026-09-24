@@ -469,7 +469,7 @@
       "confidence": "high",
       "studentReasoning": "Deposits relate to undelivered September services, so cash remains an asset and €90,000 is a contract liability, not August revenue.",
       "statementEffect": {
-        "assets": 0,
+        "assets": 90000,
         "liabilities": 90000,
         "profit": 0,
         "equity": 0,
@@ -485,9 +485,9 @@
         "04 Contracts Returns and Angry Customers.pdf pp.1-2; 03 CRM Export Cleaned FINAL.xlsx; 10 Email and WhatsApp Dump DO NOT FORWARD.pdf pp.1-3"
       ],
       "agent2StatementEffect": {
-        "profit": -90000,
-        "cash": 0,
-        "assets": 0,
+        "profit": 0,
+        "cash": 90000,
+        "assets": 90000,
         "liabilities": 90000,
         "equity": 0
       },
@@ -690,7 +690,7 @@
       "category": "classification",
       "reviewTier": "material_judgment",
       "question": "Classify Owner card spending.",
-      "answer": "Owner distribution €110,000 total owner-card spending",
+      "answer": "Owner distribution €40,000 owner-card spending",
       "evidence": [
         "€70,000 villa + €40,000 other owner card: 03 CASE FILES - Open and Investigate/09 Loans Owner Card and Legal Problems.pdf p1; 03 CASE FILES - Open and Investigate/02 Bank Export August.csv"
       ],
@@ -1225,7 +1225,7 @@
       "confidence": "high",
       "studentReasoning": "The €90,000 September events were undelivered at year-end; cash is offset by a contract liability, not revenue.",
       "statementEffect": {
-        "assets": 0,
+        "assets": 90000,
         "liabilities": 90000,
         "profit": 0,
         "equity": 0,
@@ -1241,11 +1241,11 @@
         "03 CRM Export Cleaned FINAL.xlsx; 04 Contracts Returns and Angry Customers.pdf pp.1-2; 10 Email and WhatsApp Dump DO NOT FORWARD.pdf pp.1-3"
       ],
       "agent2StatementEffect": {
-        "profit": -90000,
-        "cash": 0,
-        "assets": 0,
+        "profit": 0,
+        "cash": 90000,
+        "assets": 90000,
         "liabilities": 90000,
-        "equity": -90000
+        "equity": 0
       },
       "agent2Confidence": "high",
       "comparisonStatus": "student-reviewed independent challenge",
